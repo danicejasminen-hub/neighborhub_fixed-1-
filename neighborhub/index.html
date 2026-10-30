@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NeighborHub</title>
+<!-- Tailwind CSS + React + htm (needs internet) -->
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/htm@3.1.1/dist/htm.umd.js"></script>
+<!-- Firebase (shared online database so all phones see the same accounts/data) -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="js/firebase-config.js"></script>
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body><div id="root"></div>
+<!-- JavaScript (order matters) -->
+<script src="js/utils.js"></script>
+<script src="js/translations.js"></script>
+<script src="js/data.js"></script>
+<script src="js/context.js"></script>
+<script src="js/components.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/announcements.js"></script>
+<script src="js/schedule.js"></script>
+<script src="js/chat.js"></script>
+<script src="js/contacts.js"></script>
+<script src="js/reports.js"></script>
+<script src="js/app.js"></script>
+</body></html>
